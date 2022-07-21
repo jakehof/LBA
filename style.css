@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+        
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    margin: 0px;
+    background-color: rgb(176, 225, 222);
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#logo{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+#links{
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+#linklist{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+#linklist li{
+    display: inline;
+}
+
+#linklist a{
+    text-decoration: none;
+}
+
+#logo img{
+    width: 150px;
+    height: auto;
+}
